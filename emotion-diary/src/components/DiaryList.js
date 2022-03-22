@@ -32,7 +32,7 @@ const ControlMenu = ({value, onChange, optionList}) => {
 
 const DiaryList = ({diaryList}) => {
   const navigate = useNavigate();
-  const [sortType, setSortType] = useState("lastest");
+  const [sortType, setSortType] = useState("latest");
   const [filter, setFilter] = useState("all");
 
     const filterCallBack = (item)=>{

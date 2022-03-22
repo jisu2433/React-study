@@ -77,7 +77,7 @@ const DiaryList = ({diaryList}) => {
       <div className="right_col">
         <MyButton 
           type={'positive'} 
-          text={'새 일기쓰기'} 
+          text={'새 기록쓰기'} 
           onClick={()=>navigate('/new')}
         />
       </div>

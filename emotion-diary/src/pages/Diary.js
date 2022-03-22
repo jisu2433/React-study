@@ -12,6 +12,11 @@ const Diary = () => {
   const navigate = useNavigate();
   const [data, setDate] = useState();
   
+  useEffect(() => {
+    const titleElement = document.getElementsByTagName('title')[0];
+    titleElement.innerHTML = `독서 기록장 - ${id}번 기록`;
+  },[]);
+
   useEffect(()=>{
     if(diaryList.length >= 1){
       const targetDiary = diaryList.find(
@@ -19,11 +24,9 @@ const Diary = () => {
       );
       
       if(targetDiary){
-        //일기가 존재할 때
         setDate(targetDiary);
       }else{
-        //일기가 없을 때
-        alert("없는 일기입니다.")
+        alert("없는 기록입니다.")
         navigate('/',{replace:true});
       }
     }
@@ -65,7 +68,7 @@ const Diary = () => {
           </div>
         </section>
         <section>
-          <h4>오늘의 일기</h4>
+          <h4>오늘의 기록</h4>
           <div className="diary_content_wrapper">
             <p>{data.content}</p>
           </div>

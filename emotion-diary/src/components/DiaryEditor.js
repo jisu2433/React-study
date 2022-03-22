@@ -28,7 +28,7 @@ const DiaryEditor = ({isEdit, originData}) => {
       return;
     }
 
-    if(window.confirm(isEdit? "일기를 수정하시겠습니까?" : "새로운 일기를 작성하시겠습니까?")){
+    if(window.confirm(isEdit? "기록을 수정하시겠습니까?" : "새로운 기록을 작성하시겠습니까?")){
       if(!isEdit){
         onCreate(date, content, emotion);
       }else{
@@ -55,7 +55,7 @@ const DiaryEditor = ({isEdit, originData}) => {
   return (
   <div className="DiaryEditor">
     <MyHeader 
-      headText={isEdit ? "일기 수정하기" : "새 일기쓰기"} 
+      headText={isEdit ? "기록 수정하기" : "새 기록쓰기"} 
       leftChild={
         <MyButton text={"< 뒤로가기"} onClick={() => navigate(-1)}/>
       }
@@ -95,10 +95,10 @@ const DiaryEditor = ({isEdit, originData}) => {
         </div>
       </section>
       <section>
-        <h4>오늘의 일기</h4>
+        <h4>오늘의 기록</h4>
         <div className="input_box text_wrapper">
           <textarea
-            placeholder="오늘 하루는 어땠나요?"
+            placeholder="오늘은 어떤 기록을 하고 싶으신가요?"
             ref={contentRef}
             value={content}
             onChange={(e) => setContent(e.target.value)}

@@ -56,12 +56,12 @@ body {
 }
 
 .MyButton_positive {
-  background-color: #64c964;
+  background-color: #7674e2;
   color: white;
 }
 
 .MyButton_negative {
-  background-color: #fd565f;
+  background-color: #fa3e47;
   color: white;
 }
 
@@ -131,7 +131,7 @@ header button {
 
   cursor: pointer;
   font-family: 'Nanum Pen Script';
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* DiaryItem */

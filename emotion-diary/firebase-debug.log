@@ -9,11 +9,11 @@
 [debug] [2022-03-23T01:47:45.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
 [debug] [2022-03-23T01:47:45.842Z] > authorizing via signed-in user (maengjiiii@gmail.com)
 [info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+    ######## #### ########  ######## ########     ###     ######  ########
+    ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+    ######    ##  ########  ######   ########  #########  ######  ######
+    ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+    ##       #### ##     ## ######## ########  ##     ##  ######  ########
 
 You're about to initialize a Firebase project in this directory:
 
@@ -70,3 +70,6 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2022-03-23T01:53:29.574Z] >>> [apiv2][query] GET https://api.github.com/repos/React-study/repository/actions/secrets/public-key type=owner
 [debug] [2022-03-23T01:53:29.934Z] <<< [apiv2][status] GET https://api.github.com/repos/React-study/repository/actions/secrets/public-key 404
 [debug] [2022-03-23T01:53:29.935Z] <<< [apiv2][body] GET https://api.github.com/repos/React-study/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-03-23T02:19:48.420Z] >>> [apiv2][query] GET https://api.github.com/repos/React-study/repository/actions/secrets/public-key type=owner
+[debug] [2022-03-23T02:19:48.769Z] <<< [apiv2][status] GET https://api.github.com/repos/React-study/repository/actions/secrets/public-key 404
+[debug] [2022-03-23T02:19:48.769Z] <<< [apiv2][body] GET https://api.github.com/repos/React-study/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}

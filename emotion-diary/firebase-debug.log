@@ -1,0 +1,21 @@
+[debug] [2022-03-23T01:47:45.811Z] ----------------------------------------------------------------------
+[debug] [2022-03-23T01:47:45.816Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-03-23T01:47:45.817Z] CLI Version:   10.4.2
+[debug] [2022-03-23T01:47:45.817Z] Platform:      win32
+[debug] [2022-03-23T01:47:45.818Z] Node Version:  v16.13.2
+[debug] [2022-03-23T01:47:45.821Z] Time:          Wed Mar 23 2022 10:47:45 GMT+0900 (대한민국 표준시)
+[debug] [2022-03-23T01:47:45.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-23T01:47:45.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-23T01:47:45.842Z] > authorizing via signed-in user (maengjiiii@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jisu\Desktop\onebite\React-study\emotion-diary
+

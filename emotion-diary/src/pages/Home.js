@@ -12,7 +12,7 @@ const Home = () => {
   
   useEffect(() => {
     const titleElement = document.getElementsByTagName('title')[0];
-    titleElement.innerHTML = `독서 기록장`;
+    titleElement.innerHTML = `Write`;
   },[]);
 
   useEffect(()=>{

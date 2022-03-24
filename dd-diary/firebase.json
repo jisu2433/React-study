@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "book-diary-project",
+    "site": "dd-diary",
     "public": "build",
     "ignore": [
       "firebase.json",

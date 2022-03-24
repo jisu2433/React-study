@@ -43,7 +43,7 @@ const Diary = () => {
       <div className="DiaryPage">
         <MyHeader headText={`${getStringDate(new Date(data.date))} 기록`}
         leftChild={
-          <MyButton text={'< 뒤로가기'} onClick={() => navigate(-1)}/>
+          <MyButton text={'뒤로가기'} onClick={() => navigate(-1)}/>
         }
         rightChild={
           <MyButton 
